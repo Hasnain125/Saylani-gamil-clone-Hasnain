@@ -211,6 +211,9 @@ padding: 16px 11px;
  outline: none;
  border-radius: 5px;
 }
+.Donate-bar-sec2 span{
+  color: #424242;
+}
 /* Donate bar end */
 /* bg image style start */
 .bg-1{
@@ -262,12 +265,83 @@ padding-bottom: 10px;
  font-weight: 600;
 }
 
+
+
+
+
 /* service sec end*/
+
+
+  /* service card start */
+ .service-main-cards{
+  width: 80%;
+  display: flex;
+  gap: 20px;
+  padding: 10px 0px;
+ }
+ .service-card-1{
+  display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+  background-image: url(./assets/images/service\ card1.jpg);
+  background-size: cover;
+
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+
+ }
+ .service-card-2{
+  display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+  background-image: url(./assets/images/service\ card2.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+
+ }
+ .service-card-3{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+  background-image: url(./assets/images/service\ card3.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+
+ }
+ .serveic-span{
+  color: white;
+  font-weight: 800;
+  font-size: 18px;
+ }
+ .service-button{
+  padding: 12px 30px;
+  width: 96%;
+  background-color: #8dc63f;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 5px;
+ }
+
+
+
+    /* service card end */
 /* Media Query */
 @media screen and (max-width:1024px) {
  .list{
   display: none;
  }
+
   .slide-div{
     
     width: 95%;
@@ -344,9 +418,15 @@ padding-bottom: 10px;
   }
 
     /* service sec end */
+  
 
   
+
+
+
+
 }
+
 @media screen and (max-width:786px) {
   
    /* bg image style start media q start */
@@ -387,11 +467,67 @@ padding-bottom: 10px;
 
 }
    
-  
+.service-row-sec-card{
+  width: 100%;
+  flex-direction: column;}
 
+  .service-row-card{
+    padding: 10px 10px;
+    width: 390px;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 150px;}
+
+    .bg-1{
+      margin-left:10px ;
+      width: 95%;
+      height: 300px;
+    
+    
+    }
+    .bg-1 img{
+      width: 100%;
+      
+    }
+    .service-main-cards{
+      flex-direction: column;
+     }
+   
  
-
 }
+@media screen and (max-width:320px) {
+    .service-row-card{
+      padding: 10px 10px;
+      width: 320px;
+      font-size: 20px;
+      border-radius: 5px;
+      height: 150px;}
+
+      .Donate-bar-sec1{
+        height: 41.3px;
+        align-items: center;
+        border-radius: 6px;
+      }
+      #donate-1{
+        padding: 11px 6px;
+
+      }
+      #donate-2{
+      padding: 11px 6px;
+      }
+      .Donate-bar-sec1 input{
+        padding: 12px 14px;
+        /* border: 1px solid #424242; */
+      
+      
+      }
+      .Donate-bar-sec1{
+        height: fit-content;
+        border: 1px solid #424242; 
+      }
+  }
+
+
 
 
 
