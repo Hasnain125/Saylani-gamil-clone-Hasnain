@@ -332,6 +332,11 @@ padding-bottom: 10px;
   font-size: 15px;
   border-radius: 5px;
  }
+ .service-button:hover{
+  background-color: rgba(141, 198, 63,0.8);
+
+ }
+
 
 
 
@@ -418,6 +423,8 @@ padding-bottom: 10px;
   }
 
     /* service sec end */
+    .service-main-cards{
+      width: 95%;
   
 
   
@@ -454,6 +461,12 @@ padding-bottom: 10px;
   }
 
     /* service sec end */
+    .serveic-span{
+      font-size: 14px;
+     }
+     .service-button{
+      font-size:12px ;
+     }
 
 
 
