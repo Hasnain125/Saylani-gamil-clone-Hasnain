@@ -755,6 +755,12 @@ font-size: 15px;
     height:199px;
     border-radius: 0px;
  }
+ .other-main-part2-sec-1{
+  width: 360px;
+  height: 150px;
+  gap: 20px;
+}
+
 
 }
 
@@ -796,17 +802,13 @@ font-size: 15px;
     width: 300px;
     height: 150px;
     gap: 20px;
-  
   }
   .other-main-part1-sec1{
     width:147px;
     height:174px;
     border-radius: 0px;
  }
-    /* .other-main-part2{
-      gap: 30px;
-
-    } */
+   
 }
   
 
